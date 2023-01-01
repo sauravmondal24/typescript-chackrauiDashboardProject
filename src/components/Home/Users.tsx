@@ -10,6 +10,7 @@ import {
 	ModalFooter,
 	ModalHeader,
 	ModalOverlay,
+	Text,
 	WrapItem,
 	chakra,
 	useDisclosure
@@ -32,7 +33,6 @@ type UsersProps = {
 
 const Users = ({ users }: UsersProps) => {
 	const { isOpen, onOpen, onClose } = useDisclosure();
-	console.log(users);
 
 	return (
 		<Box display="flex" alignItems="center" justifyContent="space-between">
@@ -48,6 +48,7 @@ const Users = ({ users }: UsersProps) => {
 							w="full"
 							alignItems="center"
 							justifyContent="center"
+							mb="10"
 						>
 							<Box
 								w="xs"
@@ -112,6 +113,13 @@ const Users = ({ users }: UsersProps) => {
 										src={user.image}
 										alt="avatar"
 									/>
+									<Text fontSize="lg">
+										Interview Date: {user.interviewDate}
+									</Text>
+									<Text fontSize="lg">
+										Interview Duration : {user.durationOfInterview}
+									</Text>
+									<Text fontSize="lg">Interview Marks: {user.marks}/70</Text>
 								</ModalBody>
 
 								<ModalFooter>

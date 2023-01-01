@@ -14,7 +14,7 @@ const Home = () => {
 
 	return (
 		<Container maxW="7xl">
-			<Heading as="h1" size="xl" noOfLines={1} textAlign="center">
+			<Heading as="h1" size="xl" noOfLines={1} textAlign="center" p="6">
 				Interview Details
 			</Heading>
 			<Users users={users}></Users>

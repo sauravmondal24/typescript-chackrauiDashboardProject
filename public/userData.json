@@ -8,7 +8,7 @@
 		"phone": "+8801517038977",
 		"interviewDate": "26/12/2022",
 		"durationOfInterview": "16m",
-		"marks": 80
+		"marks": 60
 	},
 	{
 		"id": "2",
@@ -19,7 +19,7 @@
 		"phone": "+880170022667",
 		"interviewDate": "26/12/2022",
 		"durationOfInterview": "20m",
-		"marks": 90
+		"marks": 65
 	},
 	{
 		"id": "3",
@@ -30,6 +30,6 @@
 		"phone": "+8801517038977",
 		"interviewDate": "26/12/2022",
 		"durationOfInterview": "17m",
-		"marks": 85
+		"marks": 65
 	}
 ]
