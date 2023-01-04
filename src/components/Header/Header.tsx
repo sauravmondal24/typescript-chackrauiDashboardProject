@@ -17,7 +17,7 @@ import {
 import { Logo } from '../../Logo';
 
 const Header = () => {
-	const bg = useColorModeValue('white', 'gray.800');
+	const bg = useColorModeValue('dark', 'gray.800');
 	const mobileNav = useDisclosure();
 	return (
 		<React.Fragment>
