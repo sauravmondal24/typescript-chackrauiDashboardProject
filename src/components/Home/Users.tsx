@@ -15,7 +15,7 @@ import {
 	chakra,
 	useDisclosure
 } from '@chakra-ui/react';
-import { Button, ButtonGroup } from '@chakra-ui/react';
+import { Button } from '@chakra-ui/react';
 
 type UsersProps = {
 	users: {

@@ -5,7 +5,6 @@ import {
 	Button,
 	chakra,
 	CloseButton,
-	Container,
 	Flex,
 	HStack,
 	IconButton,
@@ -14,7 +13,6 @@ import {
 	VisuallyHidden,
 	VStack
 } from '@chakra-ui/react';
-import { Logo } from '../../Logo';
 
 const Header = () => {
 	const bg = useColorModeValue('dark', 'gray.800');

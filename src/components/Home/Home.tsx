@@ -1,4 +1,4 @@
-import { Box, Flex, Heading, Image, Link, chakra } from '@chakra-ui/react';
+import { Heading } from '@chakra-ui/react';
 import { useEffect, useState } from 'react';
 import { Container } from '@chakra-ui/react';
 import Users from './Users';
